@@ -1,1 +1,60 @@
-<mxfile host="www.draw.io" modified="2020-01-24T16:49:47.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.6" etag="EOlOCbYOMY99y4MV6Oq3" type="github"><diagram id="ROYTwOaIuhlLOQ9iSJh7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-24T16:53:20.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0" etag="zJ35mvPpxpLV9Sev56Ud" version="12.5.6" type="github">
+  <diagram id="ROYTwOaIuhlLOQ9iSJh7" name="Page-1">
+    <mxGraphModel dx="1422" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ubMnH219-shhnzOam0o--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubMnH219-shhnzOam0o--1" target="ubMnH219-shhnzOam0o--3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubMnH219-shhnzOam0o--1" target="ubMnH219-shhnzOam0o--2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.428;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ubMnH219-shhnzOam0o--1" target="ubMnH219-shhnzOam0o--4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--1" value="Solr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.658;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ubMnH219-shhnzOam0o--2" target="ubMnH219-shhnzOam0o--14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--2" value="ArcLight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ubMnH219-shhnzOam0o--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubMnH219-shhnzOam0o--3" target="ubMnH219-shhnzOam0o--14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--3" value="Hyrax" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--4" value="processNewUploads.py" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="175" width="180" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--9" value="&lt;div&gt;Hits Solr API directly to look for new Hyrax objects since x&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="320" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ubMnH219-shhnzOam0o--10" target="ubMnH219-shhnzOam0o--1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--10" value="ArchivesSpace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--12" value="indexNewEAD.sh" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="500" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--13" value="exportPublicData.py" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="540" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ubMnH219-shhnzOam0o--14" value="Bento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
